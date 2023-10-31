@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-app"
+  annotations:
+    "humanitec.com/orgId": "thoughtworks-empc"
+    "humanitec.com/appId": "test-app"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
